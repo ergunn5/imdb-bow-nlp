@@ -10,7 +10,7 @@ nltk.download("stopwords")
 stop_words = set(stopwords.words("english"))
 
 # veri setinin içeri aktarılması
-df = pd.read_csv("IMDB Dataset.csv")
+df = pd.read_csv("IMDB_Dataset.csv")
 
 # metin verilerinin alınması
 
